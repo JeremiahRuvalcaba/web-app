@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Post-Image</title>
+</head>
+<body>
+<header>
+    <h1>Post Image </h1>
+</header>
+<section>
+
+    <form>
+<!-- user to input a post Title -->
+        <label for="post_title" id="post_name"> Post Title </label>
+        <br>
+        <br>
+        <input type="text" id="post_title" name="post_title" required><br>
+        <!-- Password input  -->
+        <br>
+        <!-- Submit button -->
+
+<!-- input a post Description -->
+        <h1 id="post_para"> Post Description </h1>
+        <br>
+
+        <textarea id="post_description" name="post_description" rows="4" cols="50">
+        </textarea>
+        <br>
+        <br>
+        <br>
+<!-- ask user to input an image(or images, this is your choice) -->
+        <h1 id="input_image"> Input an image </h1>
+        <br>
+        <img src="SFC.jpg" alt="GGB" width="150" height="150">
+        <br>
+        <br>
+        <input type="file" id="myFile" name="filename">
+        <br>
+
+<!-- ask user to accept Acceptable Use Policy for uploading images. -->
+        <br>
+
+        <section class="TOS">
+        <br>
+        <input type="checkbox" id="age" name="age" value="Are you 13+?" required>
+        <label for="age"> Are you 13+ years of age?</label><br>
+        <input type="checkbox" id="tos" name="tos" value="tos" required>
+        <label for="tos"> Agree to the TOS and Privacy Rules </label><br>
+        <br>
+        </section>
+
+<!-- ask user to submit image post via a button. -->
+        <a href="imagepost.html"><input type="button" value="post" required></a>
+
+    </form>
+</section>
+</body>
+</html>

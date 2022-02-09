@@ -1,0 +1,33 @@
+
+
+<header>
+<h1> Register Now </h1>
+
+</header>
+     
+    
+     <form method="post" action="/users/register" enctype="application/x-www-form-urlencoded">
+            <!-- Username input -->
+            <label for="username"> USERNAME </label><br>
+            <input type="text" id="username" name="username" required><br>
+            <!-- email input -->
+            <label for="email"> EMAIL  </label><br>
+            <input type="text" id="email" name="email"><br>
+            <!-- Password -->
+            <label for="password">PASSWORD </label><br>
+            <input type="password" id="password" name="password" required><br>
+           
+            <!-- Retype password -->
+            <label for="cpassword">CONFIRM PASSWORD </label><br>
+            <input type="cpassword" id="cpassword" name="cpassword" required><br>
+            
+            <!-- Age requirement and terms of service -->
+            <input type="checkbox" id="age" name="age" value="Are you 13+?" required>
+           
+            <label for="age"> Are you 13+ years of age ?</label><br>
+            <input type="checkbox" id="tos" name="tos" value="tos" required>
+            <label for="tos"> TOS and Privacy Rules </label><br>
+            <input type="submit" value="Submit" onclick="validateForm()">
+        </form>
+</div>
+</section>

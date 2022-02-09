@@ -1,0 +1,21 @@
+users
+
+    id - unique identifer for each row 
+    username
+    email
+    password
+    usertype
+    active
+    created
+
+posts
+
+    id
+    title 
+    description
+    photopath
+    thumbnail
+    active
+    created
+    fk_usersid
+    *blobs*

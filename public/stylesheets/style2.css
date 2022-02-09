@@ -1,0 +1,201 @@
+nav {
+    /*border-radius: .25rem;*/
+    /*border: .2rem solid red;*/
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    margin: 0 0 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    
+}
+
+
+
+
+
+
+header {
+    border-radius: .25rem;
+    border: .2rem solid red;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    margin: 0 0 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+header:hover {
+    border-radius: .25rem;
+    border: .2rem solid red;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    margin: 0 0 5px 0;
+    background: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+form {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 0 0 5px 0;
+    border: .2rem solid red;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#formsVal:hover{
+    border-radius: .25rem;
+    border: .2rem solid red;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    margin: 0 0 5px 0;
+    background: black;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#post_name {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+}
+
+#post_name:hover {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+    background: black;
+    color: white;
+}
+
+
+#post_para {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+}
+
+#post_para:hover {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+    background: black;
+    color: white;
+}
+
+
+#input_image {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+}
+
+#input_image:hover {
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 5px 120px 5px 120px;
+    border: .2rem solid red;
+    background: black;
+    color: white;
+}
+
+section.TOS {
+
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px 120px 10px 120px;
+    border: .2rem solid red;
+}
+section.TOS:hover{
+    background-color: black;
+    color: white;
+}
+
+
+body{
+    background: gray;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+body:hover{
+    background: darkred;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+textarea {
+    border-radius: .25rem;
+    border: .2rem solid red;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+    margin: 0 0 5px 0;
+}
+
+#login_form {
+    text-align: center;
+}
+#login_form:hover {
+    background-color: black;
+    color: white;
+}
+input[type=button] {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    width: 50%;
+    background-color: gray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: .2rem solid red;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:hover {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
